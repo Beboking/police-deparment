@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://police-deparments.onrender.com/sitemap.xml
