@@ -7,8 +7,22 @@
   <title>Houston Police Department</title>
 
   <!-- SEO Meta Tags -->
-  <meta name="description" content="Sitio oficial del Departamento de Policía de Houston. Contáctanos al 832-646-4905 o visítanos en 1200 Travis St, Houston, TX 77002.">
-  <meta name="keywords" content="Houston Police, Departamento de Policía Houston, 832-646-4905, policía Houston, policía Texas, HPD">
+  <meta name="description" content="Official Houston Police Department website. Contact us at 832-646-4905 or visit us at 1200 Travis St, Houston, TX 77002. 24/7 emergency services, community policing, and public safety.">
+  <meta name="keywords" content="Houston Police, Houston Police Department, 832-646-4905, police Houston, Texas police, HPD, emergency services, community policing">
+  <meta name="author" content="Houston Police Department">
+
+  <!-- Open Graph Meta Tags -->
+  <meta property="og:title" content="Houston Police Department - Official Website">
+  <meta property="og:description" content="Official Houston Police Department website with contact information, services, and community resources.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://policedeparment.com/houston/">
+  <meta property="og:image" content="https://policedeparment.com/assets/logo_texax.png">
+
+  <!-- Twitter Card Meta Tags -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Houston Police Department">
+  <meta name="twitter:description" content="Official Houston Police Department website with contact information and services.">
+  <meta name="twitter:image" content="https://policedeparment.com/assets/logo_texax.png">
 
   <!-- Structured Data (schema.org) -->
   <script type="application/ld+json">
@@ -25,21 +39,46 @@
       "addressCountry": "US"
     },
     "telephone": "+1-832-646-4905",
-    "url": "https://police-deparments.onrender.com/houston",
-    "image": "https://tusitio.com/assets/logo_texax.png"
+    "url": "https://policedeparment.com/houston/",
+    "image": "https://policedeparment.com/assets/logo_texax.png"
   }
   </script>
 
   <!-- CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <link rel="stylesheet" href="../style.css" />
+  <link rel="canonical" href="https://policedeparment.com/houston/">
 </head>
 <body>
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <div class="container">
+      <a class="navbar-brand" href="../">🏠 Directory</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="../boston/">Boston</a></li>
+          <li class="nav-item"><a class="nav-link" href="../brooklyn/">Brooklyn</a></li>
+          <li class="nav-item"><a class="nav-link" href="../queens/">Queens</a></li>
+          <li class="nav-item"><a class="nav-link active" href="../houston/">Houston</a></li>
+          <li class="nav-item"><a class="nav-link" href="../losangeles/">Los Angeles</a></li>
+          <li class="nav-item"><a class="nav-link" href="../orlando/">Orlando</a></li>
+          <li class="nav-item"><a class="nav-link" href="../washington/">Washington DC</a></li>
+          <li class="nav-item"><a class="nav-link text-danger fw-bold" href="tel:911">🚨 911</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
   <header>
-    <img src="assets/logo_texax.png" class="logo" alt="Police Logo"/>
-    <h1>Houston Police Department</h1>
-    <p>Address: 1200 Travis St, Houston, TX 77002</p>
-    <p>Phone: <a href="tel:+18326464905">832-646-4905</a></p>
+    <div class="container">
+      <img src="../assets/logo_texax.png" class="logo" alt="Houston Police Department Logo"/>
+      <h1>Houston Police Department</h1>
+      <p>Address: 1200 Travis St, Houston, TX 77002</p>
+      <p>Phone: <a href="tel:+18326464905">832-646-4905</a></p>
+    </div>
   </header>
 
   <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
@@ -64,7 +103,15 @@
     </button>
   </div>
 
-  <main>
+  <main class="container my-4">
+    <!-- Breadcrumb -->
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="../">Directory</a></li>
+        <li class="breadcrumb-item active" aria-current="page">Houston Police Department</li>
+      </ol>
+    </nav>
+
     <section>
       <h2>Our Mission</h2>
       <p>To protect and serve the community with integrity, professionalism, and respect. Our department is committed to ensuring the safety and well-being of all residents.</p>
@@ -93,8 +140,12 @@
     </section>
   </main>
 
-  <footer>
-    <p>&copy; 2025 Houston Police Department</p>
+  <footer class="bg-dark text-white text-center py-4 mt-5">
+    <div class="container">
+      <p>&copy; 2025 Houston Police Department. All rights reserved.</p>
+      <p>Emergency: <a href="tel:911" class="text-danger fw-bold">911</a> | Non-Emergency: <a href="tel:+18326464905" class="text-white">832-646-4905</a></p>
+      <p><a href="../" class="text-white">← Back to Directory</a></p>
+    </div>
   </footer>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
